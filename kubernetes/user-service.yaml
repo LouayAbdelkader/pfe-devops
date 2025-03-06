@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: mohamedlouay/pfe-product-service:latest # Remplace par ton image
+        image: mohamedlouay/pfe-user-service:latest # Remplace par ton image
         ports:
         - containerPort: 3002
 ---
