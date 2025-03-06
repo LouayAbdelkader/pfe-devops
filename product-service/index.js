@@ -17,7 +17,6 @@ const productSchema = new mongoose.Schema({
   price: { type: Number, required: true }
 }, { timestamps: true });
 const Product = mongoose.model('Product', productSchema);
-const uri = '';
 
 // Connexion MongoDB
 mongoose.connect('mongodb://admin:pass123@mongodb-service:27017/ecommerce?authSource=admin', {
