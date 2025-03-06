@@ -1,4 +1,4 @@
-const KUBE_NODE_IP = "192.168.1.22"; // Remplace par l'IP de ton nœud worker 
+const KUBE_NODE_IP = "192.168.1.13"; // Remplace par l'IP de ton nœud worker 
 
 
 const authSection = document.getElementById('authSection');
