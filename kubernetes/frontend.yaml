@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: mohamedlouay/frontend:latest # Remplace par ton image si poussée sur un registre
+        image: mohamedlouay/pfe-frontend:latest # Remplace par ton image si poussée sur un registre
         ports:
         - containerPort: 80
 ---
