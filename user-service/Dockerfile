@@ -14,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 # Exposer le port 3002 afin que le conteneur puisse communiquer avec l'extérieur
-EXPOSE 3002
+EXPOSE 3001
 
 # Spécifier la commande à exécuter lorsque le conteneur démarre
 CMD ["node", "index.js"]
